@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   resources :dvla
   resources :home
   resources :gis
+  resources :ec
 end

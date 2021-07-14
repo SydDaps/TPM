@@ -11,6 +11,8 @@ gem 'pg', '~> 1.1'
 gem 'mysql2', '~> 0.5.2'
 
 gem 'sqlite3', '~> 1.4'
+
+gem 'mongoid', '~> 7.0.5'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
