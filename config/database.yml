@@ -44,6 +44,16 @@ development:
     password:
     socket: /tmp/mysql.sock
 
+  ec:
+    adapter: mysql2
+    encoding: utf8
+    database: ec_dev
+    migrations_paths: db/ec_migrate
+    pool: 5
+    username: root
+    password:
+    socket: /tmp/mysql.sock
+
   gis:
     adapter: sqlite3
     database: db/gis.sqlite3
